@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02509864DFD0B293E6871CB4 /* DirectionAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC400573402870225943F47D /* DirectionAssignment.swift */; };
+		1C3B60236896350A6F3562B0 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4110F0727D4D7C895F37F6C /* Direction.swift */; };
+		2F14BD45B27B0798BAA1BEC3 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701771892FB86124DDBFC27 /* OnboardingFlowView.swift */; };
+		6415373DBFF85250849DAD0B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 366115CD416E5C786D145185 /* PrivacyInfo.xcprivacy */; };
+		7059B4A7ACA2033D60F3CE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4145D4DB171F57106468B01D /* Assets.xcassets */; };
+		7A7822062C5B74192B80957B /* ProcessedAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E603C8186B11768C9CD0FF /* ProcessedAsset.swift */; };
+		7B2EE355D86D4A69C992AAEE /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A95DECF6DFD347C07E0B3 /* OnboardingViewModel.swift */; };
+		7D36D97D88A8872FC15F5485 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C389335EA710B6E24735ACA /* PhotoLibraryService.swift */; };
+		7F8BAB3BADFC0E547EF10677 /* SortSessionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82577E032638D54BDB10F1D /* SortSessionConfig.swift */; };
+		8450B9E9BA6DEEA6D6C000B8 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4070D8562D0208AB931EE773 /* CompletionView.swift */; };
+		887E2C9BE5390FE95C37B20E /* PhortoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE812682CC794207F82D76 /* PhortoApp.swift */; };
+		8A3EFE367A78B84875E8003B /* LivePhotoDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EF7CD9C26C6558656D3EA /* LivePhotoDisplayView.swift */; };
+		989BC6D66CF465406DE3A9D2 /* SortingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26736BC789CFC73350189EA2 /* SortingViewModel.swift */; };
+		9A815014126744C28D7FB901 /* DeleteQueueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA216CBE03C85E0919B0B0E9 /* DeleteQueueItem.swift */; };
+		9D119DA462D2590ADDAC102B /* PermissionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACF82C65F67E2217520703 /* PermissionRequestView.swift */; };
+		A6CE62BC931FA1601417F3D8 /* DeleteConfirmationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36AF252DE1C35F6D73796B8 /* DeleteConfirmationSheet.swift */; };
+		A9E8F1C8E0B062183B805657 /* DestinationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6117E4BA59E2F7BF82535F7C /* DestinationPickerView.swift */; };
+		C0E94DEDC994A5A4644C69FD /* AssetThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52DF1545780C75E3F9EC3AA /* AssetThumbnailView.swift */; };
+		C4A3D4B094579097FA791B12 /* PhotoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3CEEA7AC2D93EA77C9537 /* PhotoCardView.swift */; };
+		C8F2A3A6D2B4D1EB6F56BF31 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7D74441AD873303C054F4 /* RootView.swift */; };
+		D3E8805C7113C1778174A6FC /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10D46DC587C1ABE16E3563 /* CardStackView.swift */; };
+		D3FED9BF0884ACD2499635A3 /* SortingLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B72F170AA994027A01A6782 /* SortingLogicTests.swift */; };
+		D8257C2C3EF4A7EF7BA9D3D9 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE7820FF1C6DB3C501B475 /* ImageProvider.swift */; };
+		E1C5E9BAD92FB9CE8E5074FF /* DirectionLabelsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105C282674773CE3E33EFF3 /* DirectionLabelsOverlay.swift */; };
+		E63A8D1BE88B0F0AF1E7A216 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF688729348EDD0D91DB8A4 /* SettingsSheet.swift */; };
+		EB1AA9FA4D2AFD6D6296BA75 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B8501CD7E3E4F837D878A /* HapticsService.swift */; };
+		ED90FFFE04C9647353C3ABBD /* SortingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34DD3627F6F65324EC8E053 /* SortingScreen.swift */; };
+		FF32FABA7A2539E227924CD8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E880B39B7E21AE9AC120BA /* AppState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AD4B0C9B1FCB3BCD68C5155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60D11F9CC7E7478C1325EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F350CE9C25FDC86D9616FC01;
+			remoteInfo = Phorto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA7D74441AD873303C054F4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1A8EF7CD9C26C6558656D3EA /* LivePhotoDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoDisplayView.swift; sourceTree = "<group>"; };
+		1C389335EA710B6E24735ACA /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		26736BC789CFC73350189EA2 /* SortingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingViewModel.swift; sourceTree = "<group>"; };
+		366115CD416E5C786D145185 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3DF3CEEA7AC2D93EA77C9537 /* PhotoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCardView.swift; sourceTree = "<group>"; };
+		4070D8562D0208AB931EE773 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		4145D4DB171F57106468B01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E603C8186B11768C9CD0FF /* ProcessedAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedAsset.swift; sourceTree = "<group>"; };
+		5B10D46DC587C1ABE16E3563 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		5C9B8501CD7E3E4F837D878A /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		6117E4BA59E2F7BF82535F7C /* DestinationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPickerView.swift; sourceTree = "<group>"; };
+		7B72F170AA994027A01A6782 /* SortingLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingLogicTests.swift; sourceTree = "<group>"; };
+		7BF688729348EDD0D91DB8A4 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		83D51448F434D6A4E5F8823F /* PhortoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PhortoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36AF252DE1C35F6D73796B8 /* DeleteConfirmationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteConfirmationSheet.swift; sourceTree = "<group>"; };
+		AA216CBE03C85E0919B0B0E9 /* DeleteQueueItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteQueueItem.swift; sourceTree = "<group>"; };
+		B21A95DECF6DFD347C07E0B3 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		B4110F0727D4D7C895F37F6C /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		B45166C081E5AFF616CE30B4 /* Phorto.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Phorto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E880B39B7E21AE9AC120BA /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BCDE7820FF1C6DB3C501B475 /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		C52DF1545780C75E3F9EC3AA /* AssetThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetThumbnailView.swift; sourceTree = "<group>"; };
+		C701771892FB86124DDBFC27 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		CCBE812682CC794207F82D76 /* PhortoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhortoApp.swift; sourceTree = "<group>"; };
+		D82577E032638D54BDB10F1D /* SortSessionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortSessionConfig.swift; sourceTree = "<group>"; };
+		DFACF82C65F67E2217520703 /* PermissionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestView.swift; sourceTree = "<group>"; };
+		E105C282674773CE3E33EFF3 /* DirectionLabelsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionLabelsOverlay.swift; sourceTree = "<group>"; };
+		E34DD3627F6F65324EC8E053 /* SortingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingScreen.swift; sourceTree = "<group>"; };
+		EC400573402870225943F47D /* DirectionAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionAssignment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		24039FCBB8A35AE9098E5798 /* Phorto */ = {
+			isa = PBXGroup;
+			children = (
+				4145D4DB171F57106468B01D /* Assets.xcassets */,
+				CCBE812682CC794207F82D76 /* PhortoApp.swift */,
+				366115CD416E5C786D145185 /* PrivacyInfo.xcprivacy */,
+				D3A353450781177D616776A9 /* App */,
+				5EFE78DFEA665AE72A43D6B8 /* Models */,
+				85C826123CD80B7D2A4FD97E /* Services */,
+				81418A845AE66E9D855F860E /* Support */,
+				C098182E5503476235DF119C /* ViewModels */,
+				4BFC02F659D78E62645AE431 /* Views */,
+			);
+			path = Phorto;
+			sourceTree = "<group>";
+		};
+		3D18A20CB1BB7B8866076FDF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C52DF1545780C75E3F9EC3AA /* AssetThumbnailView.swift */,
+				6117E4BA59E2F7BF82535F7C /* DestinationPickerView.swift */,
+				1A8EF7CD9C26C6558656D3EA /* LivePhotoDisplayView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4BFC02F659D78E62645AE431 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C83BBD235171AA1C3ACE3033 /* Completion */,
+				D7B1FEDE28278AE60F4954C9 /* DeleteConfirmation */,
+				D1ED8F1F5BEA89A906EC8A75 /* Onboarding */,
+				8A91FE49E0055770621C5E19 /* Settings */,
+				3D18A20CB1BB7B8866076FDF /* Shared */,
+				CE1888F205EF57C277500BD0 /* Sorting */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EFE78DFEA665AE72A43D6B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA216CBE03C85E0919B0B0E9 /* DeleteQueueItem.swift */,
+				EC400573402870225943F47D /* DirectionAssignment.swift */,
+				44E603C8186B11768C9CD0FF /* ProcessedAsset.swift */,
+				D82577E032638D54BDB10F1D /* SortSessionConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77F9728F9CEB6B244941C613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45166C081E5AFF616CE30B4 /* Phorto.app */,
+				83D51448F434D6A4E5F8823F /* PhortoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81418A845AE66E9D855F860E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B4110F0727D4D7C895F37F6C /* Direction.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		85C826123CD80B7D2A4FD97E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5C9B8501CD7E3E4F837D878A /* HapticsService.swift */,
+				BCDE7820FF1C6DB3C501B475 /* ImageProvider.swift */,
+				1C389335EA710B6E24735ACA /* PhotoLibraryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A91FE49E0055770621C5E19 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7BF688729348EDD0D91DB8A4 /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9DB0EF14ECE861B27EACF7AD = {
+			isa = PBXGroup;
+			children = (
+				24039FCBB8A35AE9098E5798 /* Phorto */,
+				CF8A8599989E5F486CF6030D /* PhortoTests */,
+				77F9728F9CEB6B244941C613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C098182E5503476235DF119C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B21A95DECF6DFD347C07E0B3 /* OnboardingViewModel.swift */,
+				26736BC789CFC73350189EA2 /* SortingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C83BBD235171AA1C3ACE3033 /* Completion */ = {
+			isa = PBXGroup;
+			children = (
+				4070D8562D0208AB931EE773 /* CompletionView.swift */,
+			);
+			path = Completion;
+			sourceTree = "<group>";
+		};
+		CE1888F205EF57C277500BD0 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				5B10D46DC587C1ABE16E3563 /* CardStackView.swift */,
+				E105C282674773CE3E33EFF3 /* DirectionLabelsOverlay.swift */,
+				3DF3CEEA7AC2D93EA77C9537 /* PhotoCardView.swift */,
+				E34DD3627F6F65324EC8E053 /* SortingScreen.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		CF8A8599989E5F486CF6030D /* PhortoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B72F170AA994027A01A6782 /* SortingLogicTests.swift */,
+			);
+			path = PhortoTests;
+			sourceTree = "<group>";
+		};
+		D1ED8F1F5BEA89A906EC8A75 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C701771892FB86124DDBFC27 /* OnboardingFlowView.swift */,
+				DFACF82C65F67E2217520703 /* PermissionRequestView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D3A353450781177D616776A9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B6E880B39B7E21AE9AC120BA /* AppState.swift */,
+				0CA7D74441AD873303C054F4 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D7B1FEDE28278AE60F4954C9 /* DeleteConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				A36AF252DE1C35F6D73796B8 /* DeleteConfirmationSheet.swift */,
+			);
+			path = DeleteConfirmation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B654ABC67350ACA8DE36CC /* PhortoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049AD59B1964492F2D5573F0 /* Build configuration list for PBXNativeTarget "PhortoTests" */;
+			buildPhases = (
+				A9B0F584BD41FFE47D583A34 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB206ED3D46EBBD7A0BE881E /* PBXTargetDependency */,
+			);
+			name = PhortoTests;
+			packageProductDependencies = (
+			);
+			productName = PhortoTests;
+			productReference = 83D51448F434D6A4E5F8823F /* PhortoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F350CE9C25FDC86D9616FC01 /* Phorto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4D1CBE69FC66CB95E5D460 /* Build configuration list for PBXNativeTarget "Phorto" */;
+			buildPhases = (
+				77F3E3F662A5C36C2E93426C /* Sources */,
+				659ACCB5DB760625D761A20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phorto;
+			packageProductDependencies = (
+			);
+			productName = Phorto;
+			productReference = B45166C081E5AFF616CE30B4 /* Phorto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60D11F9CC7E7478C1325EAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A3B654ABC67350ACA8DE36CC = {
+						ProvisioningStyle = Automatic;
+					};
+					F350CE9C25FDC86D9616FC01 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD6AE96C4EEB2D8A0CB561D8 /* Build configuration list for PBXProject "Phorto" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9DB0EF14ECE861B27EACF7AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 77F9728F9CEB6B244941C613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F350CE9C25FDC86D9616FC01 /* Phorto */,
+				A3B654ABC67350ACA8DE36CC /* PhortoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659ACCB5DB760625D761A20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059B4A7ACA2033D60F3CE93 /* Assets.xcassets in Resources */,
+				6415373DBFF85250849DAD0B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F3E3F662A5C36C2E93426C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF32FABA7A2539E227924CD8 /* AppState.swift in Sources */,
+				C0E94DEDC994A5A4644C69FD /* AssetThumbnailView.swift in Sources */,
+				D3E8805C7113C1778174A6FC /* CardStackView.swift in Sources */,
+				8450B9E9BA6DEEA6D6C000B8 /* CompletionView.swift in Sources */,
+				A6CE62BC931FA1601417F3D8 /* DeleteConfirmationSheet.swift in Sources */,
+				9A815014126744C28D7FB901 /* DeleteQueueItem.swift in Sources */,
+				A9E8F1C8E0B062183B805657 /* DestinationPickerView.swift in Sources */,
+				1C3B60236896350A6F3562B0 /* Direction.swift in Sources */,
+				02509864DFD0B293E6871CB4 /* DirectionAssignment.swift in Sources */,
+				E1C5E9BAD92FB9CE8E5074FF /* DirectionLabelsOverlay.swift in Sources */,
+				EB1AA9FA4D2AFD6D6296BA75 /* HapticsService.swift in Sources */,
+				D8257C2C3EF4A7EF7BA9D3D9 /* ImageProvider.swift in Sources */,
+				8A3EFE367A78B84875E8003B /* LivePhotoDisplayView.swift in Sources */,
+				2F14BD45B27B0798BAA1BEC3 /* OnboardingFlowView.swift in Sources */,
+				7B2EE355D86D4A69C992AAEE /* OnboardingViewModel.swift in Sources */,
+				9D119DA462D2590ADDAC102B /* PermissionRequestView.swift in Sources */,
+				887E2C9BE5390FE95C37B20E /* PhortoApp.swift in Sources */,
+				C4A3D4B094579097FA791B12 /* PhotoCardView.swift in Sources */,
+				7D36D97D88A8872FC15F5485 /* PhotoLibraryService.swift in Sources */,
+				7A7822062C5B74192B80957B /* ProcessedAsset.swift in Sources */,
+				C8F2A3A6D2B4D1EB6F56BF31 /* RootView.swift in Sources */,
+				E63A8D1BE88B0F0AF1E7A216 /* SettingsSheet.swift in Sources */,
+				7F8BAB3BADFC0E547EF10677 /* SortSessionConfig.swift in Sources */,
+				ED90FFFE04C9647353C3ABBD /* SortingScreen.swift in Sources */,
+				989BC6D66CF465406DE3A9D2 /* SortingViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B0F584BD41FFE47D583A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FED9BF0884ACD2499635A3 /* SortingLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB206ED3D46EBBD7A0BE881E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F350CE9C25FDC86D9616FC01 /* Phorto */;
+			targetProxy = 4AD4B0C9B1FCB3BCD68C5155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		476CFFED2DA9E01371C7E89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arii.PhortoTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phorto.app/Phorto";
+			};
+			name = Release;
+		};
+		60DB32C455EAE0D1382ACA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Phorto;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "仕分けた写真をアルバムに追加するために、写真ライブラリへの書き込みが必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真を1枚ずつ表示してアルバムへ仕分けるために、写真ライブラリへのアクセスが必要です。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arii.Phorto;
+				PRODUCT_NAME = Phorto;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6606F82590BB668968D732A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6DC2E3FE62E122CAE5C4A6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9021E52BCF21A09742625518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arii.PhortoTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phorto.app/Phorto";
+			};
+			name = Debug;
+		};
+		BA84B40895DFC3B2F7AAE9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Phorto;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "仕分けた写真をアルバムに追加するために、写真ライブラリへの書き込みが必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真を1枚ずつ表示してアルバムへ仕分けるために、写真ライブラリへのアクセスが必要です。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arii.Phorto;
+				PRODUCT_NAME = Phorto;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049AD59B1964492F2D5573F0 /* Build configuration list for PBXNativeTarget "PhortoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9021E52BCF21A09742625518 /* Debug */,
+				476CFFED2DA9E01371C7E89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F4D1CBE69FC66CB95E5D460 /* Build configuration list for PBXNativeTarget "Phorto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DB32C455EAE0D1382ACA10 /* Debug */,
+				BA84B40895DFC3B2F7AAE9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD6AE96C4EEB2D8A0CB561D8 /* Build configuration list for PBXProject "Phorto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC2E3FE62E122CAE5C4A6B3 /* Debug */,
+				6606F82590BB668968D732A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60D11F9CC7E7478C1325EAA4 /* Project object */;
+}
